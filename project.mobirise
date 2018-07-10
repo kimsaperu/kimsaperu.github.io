@@ -1,7 +1,7 @@
 {
   "settings": {
     "name": "Kimsa",
-    "currentPage": "Servicios.html",
+    "currentPage": "inicio.html",
     "theme": {
       "name": "default",
       "title": "Mobirise",
@@ -13,7 +13,7 @@
     "path": "@PROJECT_PATH@",
     "versionFirst": "4.8.1",
     "siteFonts": [],
-    "uniqCompNum": 37,
+    "uniqCompNum": 63,
     "versionPublish": "4.8.1",
     "screenshot": "screenshot.png"
   },
@@ -28,6 +28,137 @@
         "html_before": ""
       },
       "components": [
+        {
+          "_inherit": "msg-box5",
+          "_params": {
+            "showTitle": true,
+            "showMeta": false,
+            "showText": true,
+            "showButtons": false,
+            "inverse": false,
+            "imageSize": "28",
+            "paddingTop": "2",
+            "paddingBottom": "1",
+            "bgImageRadio": false,
+            "bgImage": "images/bg3.jpg",
+            "parallax": true,
+            "bgColorRadio": true,
+            "bgColor": "#3c3c3c",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "http://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "overlay": false,
+            "overlayColor": "#222",
+            "overlayOpacity": 0.5
+          },
+          "media": {
+            "image": {
+              "active": true,
+              "class": "mbr-figure__img",
+              "width": 1400,
+              "src": "@PROJECT_PATH@/assets/images/juntos-612x408.jpg",
+              "link": "",
+              "alt": "",
+              "title": ""
+            },
+            "video": {
+              "src": "http://www.youtube.com/embed/sOSTC6FM6Bw",
+              "aspectratio": "16:9",
+              "autoplay": false,
+              "loop": false
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-msg-box4",
+              "link": "",
+              "size": 0
+            }
+          },
+          "title": "Hemos creado un espacio para Ti",
+          "text": "<p>Bienvenidos a nuestra pagina!</p><p>Aqui podras enterarte de nuestros cursos,capacitaciones, asesorias personalizadas y de nuestros proyectos para la administracion publica.</p><p>Agradecemos tu visita!!</p>",
+          "_tags": [
+            "Theme"
+          ],
+          "_styles": {
+            ".mbr-header__text": {
+              "color": "#ffffff"
+            },
+            ".mbr-header__subtext": {
+              "color": "#ffffff"
+            },
+            ".mbr-article": {
+              "color": "#ffffff"
+            }
+          },
+          "headerAlign": "left",
+          "meta": "By John Smith posted July 30, 2015",
+          "button": "<a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-default\" href=\"https://mobirise.com\">LEARN MORE</a>",
+          "_name": "msg-box4",
+          "_anchor": "msg-box4-1o"
+        },
+        {
+          "_afterNavbarItem": ".mbr-section > .mbr-box__magnet",
+          "_params": {
+            "autoplay": true,
+            "fullScreen": false,
+            "paddingTop": "4",
+            "paddingBottom": "4",
+            "showBullets": true,
+            "bgColor": "#d14841",
+            "slides": [
+              {
+                "image": "@PROJECT_PATH@/assets/images/kimsa-online-julio-2018new-746x535.jpg",
+                "active": false,
+                "showButtons": false,
+                "showText": false,
+                "showTitle": false,
+                "title": "Slide 1",
+                "contentAlign": "right",
+                "text": "Develop fully responsive, mobile-optimized websites that look amazing on any devices and browsers. Preview how your website will appear on phones, tablets and desktops directly in the visual editor.",
+                "buttons": "<a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-danger\" href=\"https://mobirise.com\">FOR WINDOWS</a> <a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-default\" href=\"https://mobirise.com\">FOR MAC</a>"
+              },
+              {
+                "image": "@PROJECT_PATH@/assets/images/procedimientonew-798x305.jpg",
+                "active": false,
+                "showButtons": false,
+                "showText": false,
+                "showTitle": false,
+                "title": "Slide 2",
+                "contentAlign": "left",
+                "text": "Mobirise is based on Bootstrap 3 - most powerful mobile first framework. Use any bootstrap themes with no extra work.",
+                "buttons": "<a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-danger\" href=\"https://mobirise.com\">FOR WINDOWS</a> <a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-default\" href=\"https://mobirise.com\">FOR MAC</a>"
+              },
+              {
+                "image": "@PROJECT_PATH@/assets/images/ancash-llanganuco-800x500.jpg",
+                "active": false,
+                "showButtons": false,
+                "showText": false,
+                "showTitle": false,
+                "title": "Slide 3",
+                "contentAlign": "center",
+                "text": "Choose from the large selection of latest pre-made blocks - jumbotrons, hero images, parallax scrolling, video backgrounds, hamburger menu, sticky header and more.",
+                "buttons": "<a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-danger\" href=\"https://mobirise.com\">FOR WINDOWS</a> <a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-default\" href=\"https://mobirise.com\">FOR MAC</a>"
+              },
+              {
+                "image": "@PROJECT_PATH@/assets/images/isla-del-sol-lago-titicaca-puno-800x600.jpg",
+                "active": true,
+                "showButtons": false,
+                "showText": false,
+                "showTitle": false,
+                "title": "Slide 3",
+                "contentAlign": "center",
+                "text": "Choose from the large selection of latest pre-made blocks - jumbotrons, hero images, parallax scrolling, video backgrounds, hamburger menu, sticky header and more.",
+                "buttons": "<a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-danger\" href=\"https://mobirise.com\">FOR WINDOWS</a> <a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-default\" href=\"https://mobirise.com\">FOR MAC</a>"
+              }
+            ]
+          },
+          "articleLayout": false,
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "slider",
+          "_anchor": "slider-1q"
+        },
         {
           "_inherit": "menu",
           "_params": {
@@ -80,59 +211,7 @@
           },
           "brand": "<a class=\"mbr-brand__name text-white\" data-app-btn=\"true\" href=\"https://mobirise.com\" data-app-selector=\".mbr-brand__name a\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">MOBIRISE</a>",
           "_name": "ext.menu",
-          "_anchor": "ext_menu-1"
-        },
-        {
-          "_afterNavbarItem": ".mbr-section > .mbr-box__magnet",
-          "_params": {
-            "autoplay": true,
-            "fullScreen": false,
-            "paddingTop": 3,
-            "paddingBottom": 3,
-            "showBullets": true,
-            "bgColor": "#d14841",
-            "slides": [
-              {
-                "image": "@PROJECT_PATH@/assets/images/procedimiento-882x337.jpg",
-                "active": true,
-                "showButtons": false,
-                "showText": false,
-                "showTitle": false,
-                "title": "Slide 1",
-                "contentAlign": "right",
-                "text": "Develop fully responsive, mobile-optimized websites that look amazing on any devices and browsers. Preview how your website will appear on phones, tablets and desktops directly in the visual editor.",
-                "buttons": "<a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-danger\" href=\"https://mobirise.com\">FOR WINDOWS</a> <a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-default\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">Participar</a>"
-              },
-              {
-                "image": "images/slide2.jpg",
-                "active": false,
-                "showButtons": true,
-                "showText": true,
-                "showTitle": true,
-                "title": "Slide 2",
-                "contentAlign": "left",
-                "text": "Mobirise is based on Bootstrap 3 - most powerful mobile first framework. Use any bootstrap themes with no extra work.",
-                "buttons": "<a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-danger\" href=\"https://mobirise.com\">FOR WINDOWS</a> <a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-default\" href=\"https://mobirise.com\">FOR MAC</a>"
-              },
-              {
-                "image": "@PROJECT_PATH@/assets/images/kimsa-online-julio-2018ok-1-886x635.jpg",
-                "active": false,
-                "showButtons": false,
-                "showText": false,
-                "showTitle": false,
-                "title": "Slide 3",
-                "contentAlign": "center",
-                "text": "Choose from the large selection of latest pre-made blocks - jumbotrons, hero images, parallax scrolling, video backgrounds, hamburger menu, sticky header and more.",
-                "buttons": " <a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-link\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">Participar</a>"
-              }
-            ]
-          },
-          "articleLayout": false,
-          "_tags": [
-            "Theme"
-          ],
-          "_name": "slider",
-          "_anchor": "slider-8"
+          "_anchor": "ext_menu-u"
         },
         {
           "_params": {
@@ -147,35 +226,42 @@
             "overlayColor": "#3C3C3C",
             "overlayOpacity": 0.8
           },
-          "logo": {
-            "image": {
-              "src": "@PROJECT_PATH@/assets/images/equipo-de-trabajo-265x214.jpg",
-              "class": "mbr-contacts__img mbr-contacts__img--left",
-              "width": 265,
-              "active": true,
-              "link": "",
-              "alt": "",
-              "title": ""
+          "buttons": "<a data-app-btn=\"true\" type=\"submit\" class=\"mbr-buttons__btn btn btn-danger\" data-toolbar=\"-mbrLink,-mbrBtnAdd,-mbrBtnMove,-mbrBtnRemove\">ENVIAR</a>",
+          "text1": "<b>KIMSA SP S.A.C</b><br><br>\n<strong>CONTACTOS</strong><br>Correo: informes@kimsa.pe\n<br>Telefono: +51 (1) 530 3723\n<br>Moviles: 986600611 - 999527975<br>",
+          "text2": "<p class=\"mbr-contacts__text\"><b>ENLACES\n</b></p><p class=\"mbr-contacts__text\"><b>\n</b></p><p class=\"mbr-contacts__text\"><b><a href=\"https://elcomercio.pe/\" target=\"_blank\">El Comercio</a>\n</b></p><p class=\"mbr-contacts__text\"><b><a href=\"https://elperuano.pe/\" target=\"_blank\">El Peruano</a>\n</b></p><p class=\"mbr-contacts__text\"><b><a href=\"https://www.mef.gob.pe/\" target=\"_blank\">Ministerio de Economia</a></b></p>",
+          "form": {
+            "title": "MESSAGE",
+            "action": "gtorresgz@gmail.com",
+            "alerts": {
+              "success": "En breve nos comunicamos con Ud."
             },
-            "iconFont": {
-              "class": "mbr-iconfont mbr-iconfont-contacts1",
-              "link": "https://mobirise.com",
-              "size": 0
+            "fields": {
+              "name": {
+                "visible": true,
+                "title": "Name",
+                "customTitle": "Nombres y Apellidos"
+              },
+              "email": {
+                "visible": false,
+                "title": "Email",
+                "customTitle": "Email*"
+              },
+              "phone": {
+                "visible": false,
+                "title": "Phone",
+                "customTitle": "Phone"
+              },
+              "message": {
+                "title": "Message",
+                "customTitle": "Mensaje"
+              }
             }
           },
-          "text1": "<b>KIMSA SP S.A.C</b><br><br>Av. Williams 161 Urb. La Calera<br>de la Merced<br>Lima 34, Peru.",
-          "text2": "<strong>CONTACTO</strong><br><br>Correo: informes@kimsa.pe<br>Telefono: +51 (1) 530 3723<br><br>",
-          "text3": "<ul class=\"mbr-contacts__list\"><li><b>ENLACES</b></li><li><br></li><li><a href=\"https://elcomercio.pe/\">El Comercio</a></li><li><a href=\"https://elperuano.pe/\">El Peruano</a></li><li><a href=\"https://www.mef.gob.pe/\">Ministerio de Economia</a></li></ul>",
           "_tags": [
             "Theme"
           ],
-          "_name": "contacts1",
-          "_anchor": "contacts1-b",
-          "_styles": {
-            "UL": {
-              "text-align": "left"
-            }
-          }
+          "_name": "contacts3",
+          "_anchor": "contacts3-1j"
         }
       ]
     },
@@ -183,7 +269,7 @@
       "settings": {
         "meta_descr": "Web Page Creator Description",
         "title": "Nosotros",
-        "order": 1
+        "order": 2
       },
       "components": [
         {
@@ -463,7 +549,7 @@
       "settings": {
         "meta_descr": "Web Site Creator Description",
         "title": "Servicios",
-        "order": 2
+        "order": 3
       },
       "components": [
         {
@@ -685,7 +771,7 @@
               "active": true,
               "class": "mbr-figure__img",
               "width": 1400,
-              "src": "@PROJECT_PATH@/assets/images/siga-siaf-seace-660x315.jpg",
+              "src": "@PROJECT_PATH@/assets/images/siaf-siga-832x362.jpg",
               "link": "",
               "alt": "",
               "title": ""
@@ -771,7 +857,7 @@
             }
           },
           "title": "Análisis de Datos SIAF VÍA WEB - ZEUS versión 1.0",
-          "text": "<p>Se cuenta con aplicativo Web desarrollado para UD, para el análisis de Datos SIAF, al que podrá acceder desde cualquier lugar del país , usando el internet. EL sistema ZEUS en su versión 1.0, ha sido desarrollado en base a  los requerimientos de varios usuarios, que ven  limitaciones de análisis en los reportes del mismo SIAF, así los productos sobrevalorados que existen en el mercado. Zeus 1.0,  aspira con la ayuda de ustedes, a ser el sistema de ayuda a bajo costo con altos beneficios, que le apoyará a completar su labor analítica, en el menor tiempo posible, cumpliendo así con los cronogramas de presentación del ente rector.  Solicite su usuario y clave en DEMO, en la ficha CONTACTO.</p>",
+          "text": "<p>Se cuenta con aplicativo Web para el análisis de Datos SIAF, al que podrá acceder desde cualquier lugar del país usando el internet. El sistema ZEUS en su versión 1.0, ha sido desarrollado en base a los requerimientos de varios usuarios, que ven limitaciones de análisis en los reportes del mismo SIAF, así como la sobrevaloración de productos que existen en el mercado. Zeus 1.0, aspira con la ayuda de ustedes, a ser el sistema de ayuda a bajo costo con altos beneficios, que le apoyará a completar su labor analítica, en el menor tiempo posible, cumpliendo así con los cronogramas de presentación del ente rector. Solicite su usuario y clave en DEMO, en la ficha CONTACTO.\n</p><p><br></p>",
           "_tags": [
             "Theme"
           ],
@@ -798,7 +884,7 @@
       "settings": {
         "meta_descr": "Website Maker Description",
         "title": "Contacto",
-        "order": 3
+        "order": 4
       },
       "components": [
         {
