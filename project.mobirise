@@ -1,7 +1,7 @@
 {
   "settings": {
     "name": "Kimsa",
-    "currentPage": "inicio.html",
+    "currentPage": "Servicios.html",
     "theme": {
       "name": "default",
       "title": "Mobirise",
@@ -13,7 +13,7 @@
     "path": "@PROJECT_PATH@",
     "versionFirst": "4.8.1",
     "siteFonts": [],
-    "uniqCompNum": 36,
+    "uniqCompNum": 37,
     "versionPublish": "4.8.1",
     "screenshot": "screenshot.png"
   },
@@ -93,15 +93,15 @@
             "bgColor": "#d14841",
             "slides": [
               {
-                "image": "images/slide1.jpg",
+                "image": "@PROJECT_PATH@/assets/images/procedimiento-882x337.jpg",
                 "active": true,
-                "showButtons": true,
-                "showText": true,
-                "showTitle": true,
+                "showButtons": false,
+                "showText": false,
+                "showTitle": false,
                 "title": "Slide 1",
                 "contentAlign": "right",
                 "text": "Develop fully responsive, mobile-optimized websites that look amazing on any devices and browsers. Preview how your website will appear on phones, tablets and desktops directly in the visual editor.",
-                "buttons": "<a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-danger\" href=\"https://mobirise.com\">FOR WINDOWS</a> <a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-default\" href=\"https://mobirise.com\">FOR MAC</a>"
+                "buttons": "<a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-danger\" href=\"https://mobirise.com\">FOR WINDOWS</a> <a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-default\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">Participar</a>"
               },
               {
                 "image": "images/slide2.jpg",
@@ -115,15 +115,15 @@
                 "buttons": "<a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-danger\" href=\"https://mobirise.com\">FOR WINDOWS</a> <a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-default\" href=\"https://mobirise.com\">FOR MAC</a>"
               },
               {
-                "image": "images/slide3.jpg",
+                "image": "@PROJECT_PATH@/assets/images/kimsa-online-julio-2018ok-1-886x635.jpg",
                 "active": false,
-                "showButtons": true,
-                "showText": true,
-                "showTitle": true,
+                "showButtons": false,
+                "showText": false,
+                "showTitle": false,
                 "title": "Slide 3",
                 "contentAlign": "center",
                 "text": "Choose from the large selection of latest pre-made blocks - jumbotrons, hero images, parallax scrolling, video backgrounds, hamburger menu, sticky header and more.",
-                "buttons": "<a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-danger\" href=\"https://mobirise.com\">FOR WINDOWS</a> <a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-default\" href=\"https://mobirise.com\">FOR MAC</a>"
+                "buttons": " <a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-link\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">Participar</a>"
               }
             ]
           },
@@ -526,7 +526,7 @@
             "showTitle": true,
             "showMeta": false,
             "showText": true,
-            "showButtons": true,
+            "showButtons": false,
             "inverse": false,
             "imageSize": 50,
             "paddingTop": 3,
@@ -567,7 +567,7 @@
             }
           },
           "title": "Entrenamiento y Capacitacion",
-          "text": "<p>Make your own website in a few clicks! Mobirise helps you cut down development time by providing you with a flexible website editor with a drag and drop interface.</p>",
+          "text": "<p>El no poder viajar al lugar del evento, ya no será un obstáculo para el aprendizaje y/o perfeccionamiento de sus habilidades. Ahorrando tiempo y costos podrá beneficiarse de nuestra plataforma de aprendizaje en linea desde la comodidad de sus casa u oficina . Al terminar el curso online, podrá visualizarse desde nuestra INTRANET la estadistica del evento y de su participación.</p><p>Este atento a los cursos aperturados a inicios del mes o en todo caso solicite la programación escribiendo en la ficha CONTACTO.\n</p><p>\n</p><p><br></p>",
           "_tags": [
             "Theme"
           ],
@@ -594,7 +594,7 @@
             "showTitle": true,
             "showMeta": false,
             "showText": true,
-            "showButtons": true,
+            "showButtons": false,
             "inverse": false,
             "imageSize": 50,
             "paddingTop": 3,
@@ -635,7 +635,7 @@
             }
           },
           "title": "Desarrollo e Implementacion de software a medida",
-          "text": "<p>Make your own website in a few clicks! Mobirise helps you cut down development time by providing you with a flexible website editor with a drag and drop interface.</p>",
+          "text": "<p>Desarrollamos software agil y facil de utilizar que lo ayuden en el analisis de la informacion contable,financiera y presupuestal de su entidad, asi como en el desempeño de sus funciones. Implementamos aplicativos para la automatizacion de reportes, procesos y centros de costo. Consulte nuestros servicios escribiendonos en la pestaña CONTACTO.</p>",
           "_tags": [
             "Theme"
           ],
@@ -662,7 +662,7 @@
             "showTitle": true,
             "showMeta": false,
             "showText": true,
-            "showButtons": true,
+            "showButtons": false,
             "inverse": false,
             "imageSize": 50,
             "paddingTop": 3,
@@ -702,8 +702,8 @@
               "size": 0
             }
           },
-          "title": "Asesoria Contable y Financiera",
-          "text": "<p>Make your own website in a few clicks! Mobirise helps you cut down development time by providing you with a flexible website editor with a drag and drop interface.</p>",
+          "title": "Residente SIAF - SIGA Virtual",
+          "text": "<p>Contar con un consultor  SIAF y/o  SIGA, al día con la normatividad vigente y con conocimientos por encima del promedio, es obligatorio en toda Unidad Ejecutora comprometida con estos 2 sistemas de Gestión Pública. SIn embargo, al no tenerlos ocasiona un hueco difícil de tapar, sobre todo en época de las diversas presentaciones programadas por los Entes Rectores. Ante esta necesidad se presenta una alternativa que le ahorrará costos y tiempo de espera en las conocidas mesas de ayuda. Residente SIAF - SIGA virtual, es un servicio dado durante las 24 horas del día, vía telefónica y con acceso remoto de ser necesario, cuyas beneficios a la unidad ejecutora que lo adquiera sobrepasa de sobremanera a su costo.  Infórmese al 999527975 - 986600611\r</p><p>\r</p>",
           "_tags": [
             "Theme"
           ],
@@ -723,6 +723,71 @@
           "button": "<a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-default\" href=\"https://mobirise.com\">LEARN MORE</a>",
           "_name": "msg-box4",
           "_anchor": "msg-box4-t"
+        },
+        {
+          "_inherit": "msg-box5",
+          "_params": {
+            "showTitle": true,
+            "showMeta": false,
+            "showText": true,
+            "showButtons": false,
+            "inverse": false,
+            "imageSize": 50,
+            "paddingTop": 3,
+            "paddingBottom": 3,
+            "bgImageRadio": false,
+            "bgImage": "images/bg3.jpg",
+            "parallax": true,
+            "bgColorRadio": true,
+            "bgColor": "#d14841",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "http://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "overlay": false,
+            "overlayColor": "#222",
+            "overlayOpacity": 0.5
+          },
+          "media": {
+            "image": {
+              "active": true,
+              "class": "mbr-figure__img",
+              "width": 1400,
+              "src": "images/iphone.png"
+            },
+            "video": {
+              "src": "http://www.youtube.com/embed/sOSTC6FM6Bw",
+              "aspectratio": "16:9",
+              "autoplay": false,
+              "loop": false
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-msg-box4",
+              "link": "",
+              "size": 0
+            }
+          },
+          "title": "Análisis de Datos SIAF VÍA WEB - ZEUS versión 1.0",
+          "text": "<p>Se cuenta con aplicativo Web desarrollado para UD, para el análisis de Datos SIAF, al que podrá acceder desde cualquier lugar del país , usando el internet. EL sistema ZEUS en su versión 1.0, ha sido desarrollado en base a  los requerimientos de varios usuarios, que ven  limitaciones de análisis en los reportes del mismo SIAF, así los productos sobrevalorados que existen en el mercado. Zeus 1.0,  aspira con la ayuda de ustedes, a ser el sistema de ayuda a bajo costo con altos beneficios, que le apoyará a completar su labor analítica, en el menor tiempo posible, cumpliendo así con los cronogramas de presentación del ente rector.  Solicite su usuario y clave en DEMO, en la ficha CONTACTO.</p>",
+          "_tags": [
+            "Theme"
+          ],
+          "_styles": {
+            ".mbr-header__text": {
+              "color": "#ffffff"
+            },
+            ".mbr-header__subtext": {
+              "color": "#ffffff"
+            },
+            ".mbr-article": {
+              "color": "#ffffff"
+            }
+          },
+          "headerAlign": "left",
+          "meta": "By John Smith posted July 30, 2015",
+          "button": "<a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-default\" href=\"https://mobirise.com\">LEARN MORE</a>",
+          "_name": "msg-box4",
+          "_anchor": "msg-box4-10"
         }
       ]
     },
