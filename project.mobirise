@@ -549,7 +549,7 @@
               "active": true,
               "class": "mbr-figure__img",
               "width": 1400,
-              "src": "@PROJECT_PATH@/assets/images/capacitacion-640x360.jpg",
+              "src": "@PROJECT_PATH@/assets/images/capacitacion-online-820x459.jpg",
               "link": "",
               "alt": "",
               "title": ""
@@ -685,7 +685,7 @@
               "active": true,
               "class": "mbr-figure__img",
               "width": 1400,
-              "src": "@PROJECT_PATH@/assets/images/contable-financiero-640x377.jpg",
+              "src": "@PROJECT_PATH@/assets/images/siga-siaf-seace-660x315.jpg",
               "link": "",
               "alt": "",
               "title": ""
@@ -753,7 +753,10 @@
               "active": true,
               "class": "mbr-figure__img",
               "width": 1400,
-              "src": "images/iphone.png"
+              "src": "@PROJECT_PATH@/assets/images/zeus1.0-770x462.jpg",
+              "link": "",
+              "alt": "",
+              "title": ""
             },
             "video": {
               "src": "http://www.youtube.com/embed/sOSTC6FM6Bw",
